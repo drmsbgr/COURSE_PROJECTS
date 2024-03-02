@@ -1,1 +1,1 @@
-These are other projects made in a course.
+# These are the other projects made in a course.
