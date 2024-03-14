@@ -9,8 +9,7 @@ l.append(Product("Oxygen"))
 
 dataList = ProductHelper.create_items_from_txt()
 
-for item in dataList:
-    l.append(item)
+l.extend(iter(dataList))
 
 balance = ProductHelper.get_total_balance(l)
 print(f"Tüm ürünlerin fiyatı:{balance}₺ (KDV Dahil)")
