@@ -1,4 +1,4 @@
-from chapter_04.Models.product import Product
+from Models.product import Product
 
 
 class ProductHelper:

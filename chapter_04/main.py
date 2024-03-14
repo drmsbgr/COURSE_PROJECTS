@@ -1,10 +1,9 @@
-from chapter_04.Models.product import Product
-from chapter_04.Helpers.producthelper import ProductHelper
+from Models.product import Product
+from Helpers.producthelper import ProductHelper
 from typing import List
 
-l = []
+l = [Product("Laptop", 4000, 3)]
 
-l.append(Product("Laptop", 4000, 3))
 l.append(Product("Phone", 2000))
 l.append(Product("Oxygen"))
 
